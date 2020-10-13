@@ -1,4 +1,4 @@
-module learn_go_from_example
+module example
 
 go 1.15
 
