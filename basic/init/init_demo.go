@@ -1,6 +1,6 @@
 package main
 
-import "example/basic/init_demo/demo"
+import "example/basic/init/demo"
 
 func init() {
 	println("init-main")
