@@ -6,6 +6,7 @@ import (
 
 var once sync.Once
 
+//
 func Validate(context string) {
 	once.Do(func() {
 		println("once....")
@@ -19,4 +20,13 @@ func Validate(context string) {
 		println("只....")
 	})
 	println(&one)
+}
+
+// 注释
+func CurrentOnce() {
+	once.Do(func() {
+		println("once....current")
+	})
+
+	println("current")
 }
